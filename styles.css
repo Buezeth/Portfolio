@@ -61,5 +61,63 @@ header .nav-search i {
     font-size: large;
     color: #1f29378f;
     border-right: 2px solid #1f29378f;
+}
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .banner {
+    height: 85vh;
+    background: url("./img/Cover.jpg");
+    display: flex; 
+    align-items: normal;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* object-fit: contain; */
+    width: 95%;
+    margin-top: 10px;
+    border:1px solid #1f2937;
+    border-bottom: 5px solid #1f2937;
+    border-radius: 40px;
+}
+
+main .banner .greeting-text {
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left: 150px;
+    letter-spacing: 3px;
+    color: #4b4d50d8;
+}
+
+main .banner .greeting-text::first-letter {
+    font-size: 4rem;
+}
+
+main .banner .greeting-text span {
+    color: #146fbe67;
+    display: block;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+main .banner .about {
+    width: 40%;
+    margin-top: 50px;
+    padding-left: 155px;
+    letter-spacing: 3px;
+}
+
+main .banner img {
+    height: 99vh;
+    position: absolute;
+    top: -17.25%;
+    right: 0;
+    filter: grayscale();
+    border-radius: 40px;
 }
