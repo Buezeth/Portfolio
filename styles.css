@@ -121,3 +121,28 @@ main .banner img {
     filter: grayscale();
     border-radius: 40px;
 }
+
+#about-me {
+    margin-top: 30px;
+    width: 95vw;
+    border: 1px solid #1f2937;
+    border-bottom: 5px solid #1f2937;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-me .about-me {
+    width: 85%;
+    /* letter-spacing: 2px; */
+    line-height: 2rem;
+}
+
+#about-me .about-me h1 {
+    font-size: 2rem;
+}
+
+#about-me .about-me p {
+    font-size: 1rem;
+}
