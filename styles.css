@@ -1,0 +1,65 @@
+/*Colorss
+ main color: #fab005
+ main-2 color: #146ebe
+ shadow-color: #1f2937
+ backround-color: #f0f1f3
+ */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: #f0f1f3;
+}
+header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 150px;
+    padding: 10px;
+}
+
+header .nav-menu ul li{
+    display: inline-block;
+    padding: 0 30px ;
+}
+
+header .nav-menu ul a {
+    text-decoration: none;
+    color: #146ebe;
+    font-size: 1.25rem;
+    opacity: 70%;
+    transition: all 0.3s ease-out;
+}
+
+header .nav-menu ul a:hover {
+    opacity: 100%;
+}
+
+header .nav-search input{
+    height: 100%;
+    width: 250px;
+    border: 2px solid #1f29378f;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.nav-search {
+    position: relative;
+    height: 40px;
+}
+
+header .nav-search i {
+    position: absolute;
+    top: 27%;
+    left: 10px;
+    padding: 0 5px 0 0;
+    font-size: large;
+    color: #1f29378f;
+    border-right: 2px solid #1f29378f;
+
+}
