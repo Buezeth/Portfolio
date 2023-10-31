@@ -137,7 +137,7 @@ main .banner img {
 }
 
 #about-me {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 95vw;
     border: 1px solid var(--shadow-color);
     border-bottom: 5px solid var(--shadow-color);
@@ -163,8 +163,10 @@ main .banner img {
 }
 
 #skills {
-    margin-top: 50px;
+    margin-top: 20px;
+    padding-top: 60px;
     width: 85%;
+    height: 40vh;
 }
 
 #skills .logo {
@@ -218,3 +220,23 @@ main .banner img {
     -webkit-text-fill-color: transparent;
 } */
 
+#projects {
+    margin-top: 50px;
+    width: 95vw;
+    border: 1px solid var(--shadow-color);
+    border-bottom: 5px solid var(--shadow-color);
+    border-right: 5px solid var(--shadow-color);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects .projects-h1 {
+    font-size: 2rem;
+}
+
+#projects .projects {
+    width: 85%;
+    line-height: 2rem;
+}
