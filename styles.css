@@ -92,9 +92,9 @@ main .banner {
     /* object-fit: contain; */
     width: 95%;
     margin-top: 10px;
-    border:1px solid var(--shadow-color);
-    border-bottom: 5px solid var(--shadow-color);
-    border-right: 5px solid var(--shadow-color);
+    border: 1px solid var(--header-text-color);
+    border-bottom: 5px solid var(--header-text-color);
+    border-right: 5px solid var(--header-text-color);
     border-radius: 40px;
 }
 
@@ -139,13 +139,14 @@ main .banner img {
 #about-me {
     margin-top: 50px;
     width: 95vw;
-    border: 1px solid var(--shadow-color);
-    border-bottom: 5px solid var(--shadow-color);
-    border-left: 5px solid var(--shadow-color);
+    border: 1px solid var(--header-text-color);
+    border-bottom: 5px solid var(--header-text-color);
+    border-right: 5px solid var(--header-text-color);
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: white;
 }
 
 #about-me .about-me {
@@ -223,13 +224,14 @@ main .banner img {
 #projects {
     margin-top: 50px;
     width: 95vw;
-    border: 1px solid var(--shadow-color);
-    border-bottom: 5px solid var(--shadow-color);
-    border-right: 5px solid var(--shadow-color);
+    border: 1px solid var(--header-text-color);
+    border-bottom: 5px solid var(--header-text-color);
+    border-right: 5px solid var(--header-text-color);
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: white;
 }
 
 #projects .projects-h1 {
@@ -239,4 +241,86 @@ main .banner img {
 #projects .projects {
     width: 85%;
     line-height: 2rem;
+}
+
+#contact-me {
+    margin-top: 50px;
+    width: 80vw;
+    border: 1px solid var(--header-text-color);
+    border-bottom: 5px solid var(--header-text-color);
+    border-right: 5px solid var(--header-text-color);
+    border-radius: 40px;
+    background: white;
+}
+
+#contact-me .contact-me h1 {
+    font-size: 2rem;
+    color: var(--header-text-color);
+}
+
+#contact-me .contact-me label {
+    color: var(--header-text-color2);
+}
+
+#contact-me .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-me .contact-me form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#contact-me .contact-me form input {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--shadow-color);
+    border-bottom: 5px solid var(--shadow-color);
+    margin-top: 5px;
+    width: 95%;
+}
+
+#contact-me .contact-me form textarea {
+    border-radius: 10px;
+    border: 1px solid var(--shadow-color);
+    border-bottom: 5px solid var(--shadow-color);
+    margin-top: 5px;
+    width: 95%;
+}
+
+#contact-me .contact-me form select {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid var(--shadow-color);
+    border-bottom: 5px solid var(--shadow-color);
+    margin-top: 5px;
+    width: 95%;
+}
+
+#contact-me .contact-me form .send-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-me .contact-me form button {
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid var(--header-text-color);
+    border-bottom: 5px solid var(--header-text-color);
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: var(--header-text-color2);
+    transition: all 0.3s ease;
+}
+
+#contact-me .contact-me form button:hover {
+    transform: scale(0.99); 
 }
