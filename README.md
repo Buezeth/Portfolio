@@ -1,2 +1,3 @@
 # Portfolio
-My Personal porfolio website
+
+Simple porfolio website with ignored responsive
